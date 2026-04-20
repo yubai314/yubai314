@@ -23,7 +23,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="flex items-center justify-between h-16 px-6">
               <Link href="/">
                 <span className="font-display font-black text-2xl tracking-tight gradient-text">
-                  天机阁
+                  余白
                 </span>
               </Link>
               <div className="hidden md:flex items-center gap-1">
@@ -109,7 +109,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex flex-col items-center md:items-start gap-2">
-              <span className="font-display font-black text-lg gradient-text">天机阁</span>
+              <span className="font-display font-black text-lg gradient-text">余白</span>
               <p className="text-sm text-muted-foreground">探索信息的无限可能</p>
             </div>
             <div className="flex items-center gap-6">
@@ -124,7 +124,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
           <div className="mt-8 pt-6 border-t border-border text-center">
             <p className="text-xs text-muted-foreground">
-              &copy; {new Date().getFullYear()} 天机阁. All rights reserved.
+              &copy; {new Date().getFullYear()} 余白. All rights reserved.
             </p>
           </div>
         </div>
