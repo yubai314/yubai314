@@ -21,20 +21,32 @@
 
 ---
 
-### GitHub 数据
-
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=yubai314&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=cn" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yubai314&layout=compact&theme=tokyonight&hide_border=true&locale=cn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=92&color=0:050816,45:0B1120,100:111827&text=GITHUB%20TELEMETRY&fontColor=E0F2FE&fontSize=28&fontAlignY=38&desc=code%20signals%20/%20build%20trace%20/%20open-source%20pulse&descAlignY=68&descSize=13&animation=twinkling" />
 
 </div>
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=yubai314&theme=tokyonight&hide_border=true&locale=zh_Hans&date_format=%5BY.%5Dn%2Fj)](https://git.io/streak-stats)
-
-</div>
+<table align="center" width="100%" bgcolor="#050816">
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2400&pause=900&color=67E8F9&center=true&vCenter=true&width=760&lines=%E2%97%86+SYSTEM.ONLINE+%2F+PROFILE.DATASTREAM;%E2%97%86+COMMIT.PULSE+%2F+LANGUAGE.SPECTRUM;%E2%97%86+YUBAI314+%2F+LONG-TERM.LOG" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="52%">
+      <img height="176" src="https://github-readme-stats.vercel.app/api?username=yubai314&show_icons=true&theme=tokyonight&hide_border=false&border_radius=4&border_color=1E293B&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&icon_color=A78BFA&count_private=true&locale=cn" />
+    </td>
+    <td align="center" width="48%">
+      <img height="176" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yubai314&layout=compact&theme=tokyonight&hide_border=false&border_radius=4&border_color=1E293B&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&locale=cn" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img height="190" src="https://streak-stats.demolab.com?user=yubai314&theme=tokyonight&hide_border=false&border_radius=4&background=050816&border=1E293B&stroke=38BDF8&ring=60A5FA&fire=A78BFA&currStreakNum=E0F2FE&sideNums=7DD3FC&currStreakLabel=C084FC&sideLabels=93C5FD&dates=5EEAD4&locale=zh_Hans&date_format=%5BY.%5Dn%2Fj" />
+    </td>
+  </tr>
+</table>
 
 ---
 
