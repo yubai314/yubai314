@@ -19,10 +19,11 @@
     </pattern>
   </defs>
 
-  <rect x="0.5" y="0.5" width="999" height="103" rx="4" fill="url(#panel)" stroke="#1E293B"/>
+  <rect width="1000" height="104" fill="url(#panel)"/>
+  <path d="M0.5 0V104M999.5 0V104" stroke="#1E293B"/>
   <path d="M0.5 96V103H999.5V96Z" fill="#050816"/>
-  <rect x="0.5" y="0.5" width="999" height="103" rx="4" fill="url(#grid)" opacity="0.2"/>
-  <rect width="1000" height="104" rx="4" fill="url(#haze)"/>
+  <rect width="1000" height="104" fill="url(#grid)" opacity="0.2"/>
+  <rect width="1000" height="104" fill="url(#haze)"/>
 
   <rect x="44" y="22" width="158" height="44" rx="4" fill="#0F172A" fill-opacity="0.32" stroke="#1E293B"/>
   <rect x="798" y="22" width="158" height="44" rx="4" fill="#0F172A" fill-opacity="0.32" stroke="#1E293B"/>

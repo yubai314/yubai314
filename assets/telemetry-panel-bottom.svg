@@ -11,7 +11,8 @@
       <stop offset="1" stop-color="#C084FC"/>
     </linearGradient>
   </defs>
-  <rect x="0.5" y="0" width="999" height="53.5" rx="4" fill="url(#panel)" stroke="#1E293B"/>
+  <path d="M0.5 0V49.5Q0.5 53.5 4.5 53.5H995.5Q999.5 53.5 999.5 49.5V0Z" fill="url(#panel)"/>
+  <path d="M0.5 0V49.5Q0.5 53.5 4.5 53.5H995.5Q999.5 53.5 999.5 49.5V0" stroke="#1E293B"/>
   <path d="M0.5 0H999.5V8H0.5Z" fill="#050816"/>
   <path d="M276 18H724" stroke="url(#accent)" stroke-width="1.4"/>
   <text x="500" y="38" text-anchor="middle" fill="#64748B" font-family="Consolas, Menlo, monospace" font-size="12">

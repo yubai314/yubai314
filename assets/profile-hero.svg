@@ -30,10 +30,11 @@
     </filter>
   </defs>
 
-  <rect x="0.5" y="0.5" width="999" height="259" rx="4" fill="url(#bg)" stroke="#1E293B"/>
-  <rect x="0.5" y="0.5" width="999" height="259" rx="4" fill="url(#grid)" opacity="0.28"/>
-  <rect x="0.5" y="0.5" width="999" height="259" rx="4" fill="url(#scan)"/>
-  <rect width="1000" height="260" rx="4" fill="url(#core)"/>
+  <path d="M0.5 260V4.5Q0.5 0.5 4.5 0.5H995.5Q999.5 0.5 999.5 4.5V260Z" fill="url(#bg)"/>
+  <path d="M0.5 260V4.5Q0.5 0.5 4.5 0.5H995.5Q999.5 0.5 999.5 4.5V260" stroke="#1E293B"/>
+  <rect x="0.5" y="0.5" width="999" height="259.5" fill="url(#grid)" opacity="0.28"/>
+  <rect x="0.5" y="0.5" width="999" height="259.5" fill="url(#scan)"/>
+  <rect width="1000" height="260" fill="url(#core)"/>
 
   <rect x="66" y="38" width="180" height="58" rx="4" fill="#0F172A" fill-opacity="0.34" stroke="#1E293B"/>
   <rect x="754" y="164" width="180" height="58" rx="4" fill="#0F172A" fill-opacity="0.28" stroke="#1E293B"/>
