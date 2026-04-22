@@ -2,7 +2,7 @@
 <img width="100%" align="top" src="./assets/profile-hero.svg" alt="余白 · Yubai" /><a href="https://yubai314.github.io/yubai314/"><img width="100%" align="top" src="./assets/about-panel.svg" alt="关于我" /></a><img width="100%" align="top" src="./assets/telemetry-panel-top.svg" alt="数据仓" /><img width="50%" align="top" src="https://github-readme-stats.vercel.app/api?username=yubai314&show_icons=true&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&icon_color=A78BFA&count_private=true&locale=cn&cache_seconds=21600&card_width=500&line_height=24" /><img width="50%" align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yubai314&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&locale=cn&cache_seconds=21600&card_width=500" /><img width="100%" align="top" src="https://streak-stats.demolab.com?user=yubai314&theme=tokyonight&hide_border=true&border_radius=0&background=050816&stroke=38BDF8&ring=60A5FA&fire=A78BFA&currStreakNum=E0F2FE&sideNums=7DD3FC&currStreakLabel=C084FC&sideLabels=93C5FD&dates=5EEAD4&locale=zh_Hans&date_format=%5BY.%5Dn%2Fj&card_width=1000" /><img width="100%" align="top" src="./assets/telemetry-panel-bottom.svg" alt="数据缓存" />
 </div>
 
-<p align="center">浏览次数 <img src="https://komarev.com/ghpvc/?username=yubai314&color=0ea5e9&style=flat-square&label=" alt="浏览次数" /></p>
+<p align="center"><img src="./assets/profile-views-label.svg" alt="浏览次数" /><img src="https://komarev.com/ghpvc/?username=yubai314&color=0ea5e9&style=flat-square&label=" alt="浏览次数数值" /></p>
 
 ---
 
