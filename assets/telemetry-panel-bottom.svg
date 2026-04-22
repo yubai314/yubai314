@@ -1,6 +1,6 @@
-<svg width="1000" height="54" viewBox="0 0 1000 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="48" viewBox="0 0 1000 48" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="54" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="48" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617"/>
       <stop offset="0.55" stop-color="#050816"/>
       <stop offset="1" stop-color="#0B1120"/>
@@ -11,11 +11,11 @@
       <stop offset="1" stop-color="#C084FC"/>
     </linearGradient>
   </defs>
-  <path d="M0.5 0V49.5Q0.5 53.5 4.5 53.5H995.5Q999.5 53.5 999.5 49.5V0Z" fill="url(#panel)"/>
-  <path d="M0.5 0V49.5Q0.5 53.5 4.5 53.5H995.5Q999.5 53.5 999.5 49.5V0" stroke="#1E293B"/>
+  <path d="M0.5 0V43.5Q0.5 47.5 4.5 47.5H995.5Q999.5 47.5 999.5 43.5V0Z" fill="url(#panel)"/>
+  <path d="M0.5 0V43.5Q0.5 47.5 4.5 47.5H995.5Q999.5 47.5 999.5 43.5V0" stroke="#1E293B"/>
   <path d="M0.5 0H999.5V8H0.5Z" fill="#050816"/>
   <path d="M276 18H724" stroke="url(#accent)" stroke-width="1.4"/>
-  <text x="500" y="38" text-anchor="middle" fill="#64748B" font-family="Consolas, Menlo, monospace" font-size="12">
-    telemetry cache: github stats ~12h / language spectrum ~2d / streak ~24h
+  <text x="500" y="34" text-anchor="middle" fill="#64748B" font-family="Consolas, Menlo, monospace" font-size="12">
+    数据缓存：GitHub 统计约 12 小时 / 语言统计约 2 天 / 连续贡献约 24 小时
   </text>
 </svg>

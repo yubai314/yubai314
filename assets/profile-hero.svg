@@ -36,8 +36,8 @@
   <rect x="0.5" y="0.5" width="999" height="259.5" fill="url(#scan)"/>
   <rect width="1000" height="260" fill="url(#core)"/>
 
-  <rect x="66" y="38" width="180" height="58" rx="4" fill="#0F172A" fill-opacity="0.34" stroke="#1E293B"/>
-  <rect x="754" y="164" width="180" height="58" rx="4" fill="#0F172A" fill-opacity="0.28" stroke="#1E293B"/>
+  <rect x="66" y="38" width="180" height="58" fill="#0F172A" fill-opacity="0.34" stroke="#1E293B"/>
+  <rect x="754" y="164" width="180" height="58" fill="#0F172A" fill-opacity="0.28" stroke="#1E293B"/>
   <path d="M88 66H210M790 194H912" stroke="#67E8F9" stroke-opacity="0.5"/>
   <path d="M88 80H174M826 180H912" stroke="#A78BFA" stroke-opacity="0.38"/>
 
@@ -54,7 +54,7 @@
   </g>
 
   <text x="500" y="61" text-anchor="middle" fill="#67E8F9" font-family="Consolas, Menlo, monospace" font-size="16" font-weight="700" letter-spacing="4">
-    GITHUB TELEMETRY
+    GitHub 主页数据
   </text>
   <text x="500" y="127" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Noto Sans SC, Arial, sans-serif" font-size="52" font-weight="800">
     余白 · Yubai
@@ -63,6 +63,6 @@
     在技术与人文之间做长期记录
   </text>
   <text x="500" y="190" text-anchor="middle" fill="#93C5FD" font-family="Consolas, Menlo, monospace" font-size="14">
-    code signals / build trace / open-source pulse
+    技术记录 / 项目脉冲 / 开源轨迹
   </text>
 </svg>

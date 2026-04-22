@@ -1,6 +1,6 @@
-<svg width="1000" height="104" viewBox="0 0 1000 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="88" viewBox="0 0 1000 88" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="104" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="88" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617"/>
       <stop offset="0.52" stop-color="#050816"/>
       <stop offset="1" stop-color="#0B1120"/>
@@ -19,23 +19,23 @@
     </pattern>
   </defs>
 
-  <rect width="1000" height="104" fill="url(#panel)"/>
-  <path d="M0.5 0V104M999.5 0V104" stroke="#1E293B"/>
-  <path d="M0.5 96V103H999.5V96Z" fill="#050816"/>
-  <rect width="1000" height="104" fill="url(#grid)" opacity="0.2"/>
-  <rect width="1000" height="104" fill="url(#haze)"/>
+  <rect width="1000" height="88" fill="url(#panel)"/>
+  <path d="M0.5 0V88M999.5 0V88" stroke="#1E293B"/>
+  <path d="M0.5 80V88H999.5V80Z" fill="#050816"/>
+  <rect width="1000" height="88" fill="url(#grid)" opacity="0.2"/>
+  <rect width="1000" height="88" fill="url(#haze)"/>
 
-  <rect x="44" y="22" width="158" height="44" rx="4" fill="#0F172A" fill-opacity="0.32" stroke="#1E293B"/>
-  <rect x="798" y="22" width="158" height="44" rx="4" fill="#0F172A" fill-opacity="0.32" stroke="#1E293B"/>
-  <path d="M68 42H178M822 42H932" stroke="#67E8F9" stroke-opacity="0.46"/>
-  <path d="M68 52H142M858 52H932" stroke="#A78BFA" stroke-opacity="0.34"/>
+  <rect x="44" y="18" width="158" height="36" fill="#0F172A" fill-opacity="0.32" stroke="#1E293B"/>
+  <rect x="798" y="18" width="158" height="36" fill="#0F172A" fill-opacity="0.32" stroke="#1E293B"/>
+  <path d="M68 34H178M822 34H932" stroke="#67E8F9" stroke-opacity="0.46"/>
+  <path d="M68 44H142M858 44H932" stroke="#A78BFA" stroke-opacity="0.34"/>
 
-  <text x="500" y="36" text-anchor="middle" fill="#E0F2FE" font-family="Consolas, Menlo, monospace" font-size="20" font-weight="700" letter-spacing="3">
-    DATA WAREHOUSE
+  <text x="500" y="32" text-anchor="middle" fill="#E0F2FE" font-family="Consolas, Menlo, monospace" font-size="20" font-weight="700" letter-spacing="3">
+    数据仓
   </text>
-  <text x="500" y="64" text-anchor="middle" fill="#67E8F9" font-family="Consolas, Menlo, monospace" font-size="13">
-    PROFILE.DATASTREAM / COMMIT.PULSE / LANGUAGE.SPECTRUM
+  <text x="500" y="56" text-anchor="middle" fill="#67E8F9" font-family="Consolas, Menlo, monospace" font-size="13">
+    主页数据流 / 提交脉冲 / 语言光谱
   </text>
-  <path d="M140 82H860" stroke="url(#accent)" stroke-width="1.4"/>
-  <path d="M252 88H748" stroke="#334155" stroke-width="1"/>
+  <path d="M140 72H860" stroke="url(#accent)" stroke-width="1.4"/>
+  <path d="M252 78H748" stroke="#334155" stroke-width="1"/>
 </svg>
