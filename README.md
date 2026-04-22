@@ -2,7 +2,7 @@
 
 <img width="100%" src="./assets/profile-hero.svg" alt="余白 · Yubai" />
 
-<img src="https://komarev.com/ghpvc/?username=yubai314&color=0ea5e9&style=flat-square&label=PROFILE%20VIEWS" alt="Profile views" />
+![Profile Views](https://komarev.com/ghpvc/?username=yubai314&color=0ea5e9&style=flat-square&label=Profile%20Views)
 
 </div>
 
