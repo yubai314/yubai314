@@ -2,7 +2,7 @@
 
 <img width="100%" src="./assets/profile-hero.svg" alt="余白 · Yubai" />
 
-![Profile Views](https://komarev.com/ghpvc/?username=yubai314&color=6366f1&style=flat-square&label=访问次数)
+<img src="https://komarev.com/ghpvc/?username=yubai314&color=0ea5e9&style=flat-square&label=PROFILE%20VIEWS" alt="Profile views" />
 
 </div>
 
@@ -20,7 +20,7 @@
 ---
 
 <div align="center">
-<img width="100%" src="./assets/telemetry-panel-top.svg" alt="Data warehouse" /><br><img width="50%" align="top" src="https://github-readme-stats.vercel.app/api?username=yubai314&show_icons=true&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&icon_color=A78BFA&count_private=true&locale=cn&cache_seconds=21600&card_width=500" /><img width="50%" align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yubai314&layout=compact&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&locale=cn&cache_seconds=21600&card_width=500" /><br><img width="100%" src="https://streak-stats.demolab.com?user=yubai314&theme=tokyonight&hide_border=true&border_radius=0&background=050816&stroke=38BDF8&ring=60A5FA&fire=A78BFA&currStreakNum=E0F2FE&sideNums=7DD3FC&currStreakLabel=C084FC&sideLabels=93C5FD&dates=5EEAD4&locale=zh_Hans&date_format=%5BY.%5Dn%2Fj&card_width=1000" /><br><img width="100%" src="./assets/telemetry-panel-bottom.svg" alt="Telemetry cache note" />
+<img width="100%" src="./assets/telemetry-panel-top.svg" alt="Data warehouse" /><br><img width="50%" height="195" align="top" src="https://github-readme-stats.vercel.app/api?username=yubai314&show_icons=true&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&icon_color=A78BFA&count_private=true&locale=cn&cache_seconds=21600&card_width=500" /><img width="50%" height="195" align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yubai314&layout=compact&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&locale=cn&cache_seconds=21600&card_width=500" /><br><img width="100%" src="https://streak-stats.demolab.com?user=yubai314&theme=tokyonight&hide_border=true&border_radius=0&background=050816&stroke=38BDF8&ring=60A5FA&fire=A78BFA&currStreakNum=E0F2FE&sideNums=7DD3FC&currStreakLabel=C084FC&sideLabels=93C5FD&dates=5EEAD4&locale=zh_Hans&date_format=%5BY.%5Dn%2Fj&card_width=1000" /><br><img width="100%" src="./assets/telemetry-panel-bottom.svg" alt="Telemetry cache note" />
 </div>
 
 ---
