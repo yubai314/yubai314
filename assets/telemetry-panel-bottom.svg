@@ -1,0 +1,20 @@
+<svg width="1000" height="54" viewBox="0 0 1000 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#050816"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="276" y1="16" x2="724" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0" width="999" height="53.5" rx="4" fill="url(#panel)" stroke="#1E293B"/>
+  <path d="M0.5 0H999.5V8H0.5Z" fill="#050816"/>
+  <path d="M276 18H724" stroke="url(#accent)" stroke-width="1.4"/>
+  <text x="500" y="38" text-anchor="middle" fill="#64748B" font-family="Consolas, Menlo, monospace" font-size="12">
+    telemetry cache: github stats ~12h / language spectrum ~2d / streak ~24h
+  </text>
+</svg>

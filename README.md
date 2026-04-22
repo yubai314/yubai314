@@ -19,26 +19,9 @@
 
 ---
 
-<table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#050816" bordercolor="#050816" rules="none" frame="void">
-  <tr>
-    <td colspan="2" align="center" bgcolor="#050816">
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2400&pause=900&color=67E8F9&center=true&vCenter=true&width=760&lines=%E2%97%86+SYSTEM.ONLINE+%2F+PROFILE.DATASTREAM;%E2%97%86+COMMIT.PULSE+%2F+LANGUAGE.SPECTRUM;%E2%97%86+YUBAI314+%2F+LONG-TERM.LOG" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="52%" bgcolor="#050816">
-      <img height="176" src="https://github-readme-stats.vercel.app/api?username=yubai314&show_icons=true&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&icon_color=A78BFA&count_private=true&locale=cn&cache_seconds=21600" />
-    </td>
-    <td align="center" width="48%" bgcolor="#050816">
-      <img height="176" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yubai314&layout=compact&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&locale=cn&cache_seconds=21600" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" bgcolor="#050816">
-      <img height="190" src="https://streak-stats.demolab.com?user=yubai314&theme=tokyonight&hide_border=true&border_radius=0&background=050816&stroke=38BDF8&ring=60A5FA&fire=A78BFA&currStreakNum=E0F2FE&sideNums=7DD3FC&currStreakLabel=C084FC&sideLabels=93C5FD&dates=5EEAD4&locale=zh_Hans&date_format=%5BY.%5Dn%2Fj" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+<img width="100%" src="./assets/telemetry-panel-top.svg" alt="Data warehouse" /><br><img width="50%" src="https://github-readme-stats.vercel.app/api?username=yubai314&show_icons=true&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&icon_color=A78BFA&count_private=true&locale=cn&cache_seconds=21600&card_width=500" /><img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yubai314&layout=compact&theme=tokyonight&hide_border=true&border_radius=0&bg_color=050816&title_color=7DD3FC&text_color=CBD5E1&locale=cn&cache_seconds=21600&card_width=500" /><br><img width="100%" src="https://streak-stats.demolab.com?user=yubai314&theme=tokyonight&hide_border=true&border_radius=0&background=050816&stroke=38BDF8&ring=60A5FA&fire=A78BFA&currStreakNum=E0F2FE&sideNums=7DD3FC&currStreakLabel=C084FC&sideLabels=93C5FD&dates=5EEAD4&locale=zh_Hans&date_format=%5BY.%5Dn%2Fj&card_width=1000" /><br><img width="100%" src="./assets/telemetry-panel-bottom.svg" alt="Telemetry cache note" />
+</div>
 
 ---
 
