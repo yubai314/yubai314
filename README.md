@@ -2,7 +2,7 @@
 
 # 余白 · Yubai
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=500&size=18&pause=1000&color=6366F1&center=true&vCenter=true&width=435&lines=待填写+slogan+第一行;待填写+slogan+第二行)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=500&size=18&pause=1000&color=6366F1&center=true&vCenter=true&width=560&lines=在技术与人文之间做长期记录;把项目、阅读与思考写成可复用的路径)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=yubai314&color=6366f1&style=flat-square&label=访问次数)
 
@@ -12,10 +12,11 @@
 
 ### 关于我
 
-- 🌱 待填写（正在学习 / 研究什么）
-- 🔭 待填写（目前在做什么项目）
-- 💬 待填写（擅长什么话题）
-- 📫 待填写（如何联系）
+- 🌱 正在学习：Rust、TypeScript、AI 应用工程，也持续阅读哲学、社会理论与古典文本。
+- 🔭 正在做：个人网站、ShadowMixer、NexusReader，以及一些把想法落成工具的长期实验。
+- ✍️ 这里会写：技术实践、项目复盘、阅读摘抄，和关于社会、心理与文化的随笔。
+- 💬 可以聊：Web 工程、AI 工具、信息分析、开源项目、写作系统。
+- 📫 联系方式：可以通过 GitHub 与我交流。
 - 🌐 个人网站：[yubai314.github.io/yubai314](https://yubai314.github.io/yubai314/)
 
 ---
