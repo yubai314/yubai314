@@ -1,7 +1,9 @@
 import { useVideos } from "@/lib/useSiteData";
-import HeroBackground from "@/components/HeroBackground";
 import { motion } from "framer-motion";
 import { Play, Eye, ThumbsUp, ExternalLink, Loader2, Video } from "lucide-react";
+
+const base = (import.meta.env.BASE_URL || "/").replace(/\/?$/, "/");
+const VIDEOS_BG = `${base}hero-bg-zhongshi.png`;
 
 const stagger = {
   hidden: { opacity: 0 },
@@ -19,7 +21,15 @@ export default function Videos() {
   return (
     <div>
       <section className="relative -mt-28 overflow-hidden">
-        <HeroBackground />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1510] via-[#1c1812] to-background" />
+        <div
+          className="absolute inset-0 bg-cover bg-center z-[1]"
+          style={{ backgroundImage: `url(${VIDEOS_BG})` }}
+        />
+        <div
+          className="absolute inset-0 z-[2] bg-gradient-to-b from-[#1a1510]/85 via-[#1c1812]/70 via-[#1e1a14]/50 to-background/90"
+          aria-hidden
+        />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-48 pb-24">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -74,17 +84,17 @@ export default function Videos() {
                           <Play size={48} className="text-primary" />
                         </div>
                       )}
-                      <div className="absolute inset-0 bg-[var(--hero-from)] opacity-0 group-hover:opacity-95 transition-opacity duration-300 ease-out flex items-center justify-center">
+                      <div className="absolute inset-0 bg-[#1a1510] opacity-0 group-hover:opacity-95 transition-opacity duration-300 ease-out flex items-center justify-center">
                         <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center shadow-lg">
                           <Play size={24} className="text-primary-foreground ml-1" fill="currentColor" />
                         </div>
                       </div>
                       {video.duration && (
-                        <div className="absolute bottom-2 right-2 px-2 py-0.5 rounded-md bg-[var(--hero-from)] text-foreground text-xs font-medium">
+                        <div className="absolute bottom-2 right-2 px-2 py-0.5 rounded-md bg-[#1a1510] text-foreground text-xs font-medium">
                           {video.duration}
                         </div>
                       )}
-                      <div className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-primary/90 text-primary-foreground text-xs font-medium flex items-center gap-1">
+                      <div className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-[#fb7299]/90 text-white text-xs font-medium flex items-center gap-1">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                           <path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906L17.813 4.653z" />
                         </svg>

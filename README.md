@@ -31,10 +31,10 @@
 
 ### 技术栈
 
-<div align="center">
+<div align="left">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=rust,typescript,react,nextjs,electron,python,fastapi,docker,redis,sqlite,git,github&theme=dark&perline=6" alt="Rust, TypeScript, React, Next.js, Electron, Python, FastAPI, Docker, Redis, SQLite, Git, GitHub" />
+  <img src="https://skillicons.dev/icons?i=rust,typescript,react,nextjs,electron,python,fastapi,docker,redis,sqlite,git,github&theme=dark&perline=12" alt="Rust, TypeScript, React, Next.js, Electron, Python, FastAPI, Docker, Redis, SQLite, Git, GitHub" />
 </a>
 
 </div>

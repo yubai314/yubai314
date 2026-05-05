@@ -9,7 +9,7 @@ import Projects from "@/pages/Projects";
 import ProjectDetail from "@/pages/ProjectDetail";
 import NotFound from "@/pages/NotFound";
 
-// 与 Vite base 一致，保证在 gtr4321.github.io/Infinite-Loop/ 下路由与链接正确
+// 与 Vite base 一致，保证在 GitHub Pages 项目路径下路由与链接正确
 const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "") || "";
 
 function Routes() {

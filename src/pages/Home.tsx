@@ -1,6 +1,5 @@
 import { useAggregatedFeed } from "@/lib/useSiteData";
 import type { AggregatedFeedItem } from "@/lib/data";
-import HeroBackground from "@/components/HeroBackground";
 import { motion } from "framer-motion";
 import { Clock, MessageCircle, Heart, Share2, Zap, Globe, Code, Video, Folder, Loader2 } from "lucide-react";
 import { useState } from "react";
@@ -28,13 +27,30 @@ const fadeInUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
 };
 
+const FALLBACK_HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663287023784/FU8KrTQkmJEEcfhuSWS3mH/hero-bg-Sg76HaQCVYyNzL24v4tzb5.webp";
+
 export default function Home() {
   const { data: feedItems, isLoading } = useAggregatedFeed();
+  const base = import.meta.env.BASE_URL || "/";
+  const [heroBg, setHeroBg] = useState(() => (base.endsWith("/") ? base : base + "/") + "hero-bg-zhongshi.png");
+  const onHeroBgError = () => setHeroBg(FALLBACK_HERO_BG);
 
   return (
     <div>
       <section className="relative -mt-28 overflow-hidden">
-        <HeroBackground />
+        {/* 底层：实色渐变兜底 */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1510] via-[#1c1812] to-background" />
+        {/* 中层：背景图放在上面 */}
+        <div
+          className="absolute inset-0 bg-cover bg-center z-[1]"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        />
+        <img src={heroBg} alt="" className="hidden" onError={onHeroBgError} />
+        {/* 顶层：半透明渐变，让背景图透出 */}
+        <div
+          className="absolute inset-0 z-[2] bg-gradient-to-b from-[#1a1510]/85 via-[#1c1812]/70 via-[#1e1a14]/50 to-background/90"
+          aria-hidden
+        />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-48 pb-32">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -131,7 +147,7 @@ function AggregatedFeedCard({ item }: { item: AggregatedFeedItem }) {
             <button
               onClick={(e) => { e.preventDefault(); e.stopPropagation(); setLiked(!liked); }}
               className={`flex items-center gap-1.5 text-xs transition-colors duration-200 ${
-                liked ? "text-primary" : "text-muted-foreground hover:text-primary"
+                liked ? "text-[#f43f5e]" : "text-muted-foreground hover:text-[#f43f5e]"
               }`}
             >
               <Heart size={14} fill={liked ? "currentColor" : "none"} />

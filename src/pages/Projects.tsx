@@ -1,8 +1,10 @@
 import { useProjects } from "@/lib/useSiteData";
-import HeroBackground from "@/components/HeroBackground";
 import { motion } from "framer-motion";
 import { Folder, Star, GitFork, ExternalLink, Github, Loader2 } from "lucide-react";
 import { Link } from "wouter";
+
+const base = (import.meta.env.BASE_URL || "/").replace(/\/?$/, "/");
+const PROJECTS_BG = `${base}hero-bg-zhongshi.png`;
 
 const stagger = {
   hidden: { opacity: 0 },
@@ -41,7 +43,15 @@ export default function Projects() {
   return (
     <div>
       <section className="relative -mt-28 overflow-hidden">
-        <HeroBackground />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1510] via-[#1c1812] to-background" />
+        <div
+          className="absolute inset-0 bg-cover bg-center z-[1]"
+          style={{ backgroundImage: `url(${PROJECTS_BG})` }}
+        />
+        <div
+          className="absolute inset-0 z-[2] bg-gradient-to-b from-[#1a1510]/85 via-[#1c1812]/70 via-[#1e1a14]/50 to-background/90"
+          aria-hidden
+        />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-48 pb-24">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
