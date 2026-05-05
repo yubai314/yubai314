@@ -4,9 +4,11 @@
 
 ### 关于我
 
-我在持续记录技术实践、项目构建和阅读思考。当前主要关注 AI 应用工程、Rust / TypeScript 开发、信息分析工具，以及个人知识系统的长期维护。
+我是余白。Rust + Python + TypeScript，Tauri 2 桌面端、React/Vite 前端、FastAPI 后层。
 
-这个主页更像一份索引：你可以从这里看到我正在做的项目、最近写下的文章，以及我常用的技术栈。更多内容会整理在我的个人网站：[yubai314.github.io/yubai314](https://yubai314.github.io/yubai314/)。
+正在构建几个我自己真正想用的东西：一个本地优先的新闻工作台，重新定义信息摄入的方式；一个面向 agent 时代的交互运行时，想把人和模型协作的粒度做得更细；还有一个 LLM harness 层，管上下文、工具调用和多模型协调——这块目前大多数方案都不够好。
+
+研究方向以计量经济学和因果推断为主干，Pearl 的 do-calculus 是我目前最认真对待的框架，想把识别策略和现代 ML 真正接起来而不是各说各话。但驱动这一切的底层逻辑其实是非理性主义的：我不相信人的决策来自最优化，相信它来自欲望、结构和历史的合力——尼采讲权力意志，马克思讲生产关系，拉康讲主体永远错过自己想要的东西。这套视角反过来让我对"模型在做什么"这个问题有不一样的直觉。
 
 ### 当前关注
 
@@ -31,11 +33,14 @@
 
 ### 技术栈
 
+<div align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=rust,python,ts,tauri,react,vite,fastapi,docker,redis,sqlite,git,github&theme=dark&perline=12" alt="Rust, Python, TypeScript, Tauri, React, Vite, FastAPI, Docker, Redis, SQLite, Git, GitHub" />
+  </a>
+</div>
+
 <p align="left">
-  <img height="26" src="https://skillicons.dev/icons?i=rust" alt="Rust" /> Rust &nbsp;&nbsp;
-  <img height="26" src="https://skillicons.dev/icons?i=python" alt="Python" /> Python &nbsp;&nbsp;
-  <img height="26" src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /> TypeScript &nbsp;&nbsp;
-  <strong>Agentic Runtime</strong>
+  Rust · Python · TypeScript · Tauri 2 · React/Vite · FastAPI · Agentic Runtime · LLM Harness
 </p>
 
 ### 贡献记录

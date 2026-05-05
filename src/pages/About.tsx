@@ -4,10 +4,10 @@ const base = (import.meta.env.BASE_URL || "/").replace(/\/?$/, "/");
 const ABOUT_BG = `${base}hero-bg-zhongshi.png`;
 
 const focusItems = [
-  "AI 工具与应用工程：把模型能力接入真实工作流，而不是只停留在演示。",
-  "Rust 与 TypeScript：偏向可靠、可维护、能长期迭代的工程实现。",
-  "信息分析与阅读系统：RSS、事件流、知识整理和内容归档。",
-  "技术写作与阅读记录：项目复盘、摘抄、随笔和一些跨学科观察。",
+  "本地优先新闻工作台：重新定义信息摄入、筛选和长期归档的方式。",
+  "Agentic Runtime：把人和模型协作的粒度拆得更细，让交互不只停在对话框。",
+  "LLM Harness：管理上下文、工具调用和多模型协调，补上现有方案里不够顺手的层。",
+  "计量经济学与因果推断：以 Pearl 的 do-calculus 为框架，把识别策略和现代 ML 接起来。",
 ];
 
 const projects = [
@@ -49,7 +49,16 @@ const articles = [
   },
 ];
 
-const techStack = ["Rust", "Python", "TypeScript", "Agentic Runtime"];
+const techStack = [
+  "Rust",
+  "Python",
+  "TypeScript",
+  "Tauri 2",
+  "React/Vite",
+  "FastAPI",
+  "Agentic Runtime",
+  "LLM Harness",
+];
 
 export default function About() {
   return (
@@ -74,7 +83,7 @@ export default function About() {
               关于<span className="gradient-text">我</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl">
-              技术实践、信息分析与长期写作。
+              Agentic runtime、因果推断与信息工作台。
             </p>
           </motion.div>
         </div>
@@ -93,10 +102,13 @@ export default function About() {
               <h2 className="text-2xl font-display font-bold text-foreground mb-4">关于我</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  我在持续记录技术实践、项目构建和阅读思考。当前主要关注 AI 应用工程、Rust / TypeScript 开发、信息分析工具，以及个人知识系统的长期维护。
+                  我是余白。Rust + Python + TypeScript，Tauri 2 桌面端、React/Vite 前端、FastAPI 后层。
                 </p>
                 <p>
-                  这个主页更像一份索引：你可以从这里看到我正在做的项目、最近写下的文章，以及我常用的技术栈。
+                  正在构建几个我自己真正想用的东西：一个本地优先的新闻工作台，重新定义信息摄入的方式；一个面向 agent 时代的交互运行时，想把人和模型协作的粒度做得更细；还有一个 LLM harness 层，管上下文、工具调用和多模型协调——这块目前大多数方案都不够好。
+                </p>
+                <p>
+                  研究方向以计量经济学和因果推断为主干，Pearl 的 do-calculus 是我目前最认真对待的框架，想把识别策略和现代 ML 真正接起来而不是各说各话。但驱动这一切的底层逻辑其实是非理性主义的：我不相信人的决策来自最优化，相信它来自欲望、结构和历史的合力——尼采讲权力意志，马克思讲生产关系，拉康讲主体永远错过自己想要的东西。这套视角反过来让我对"模型在做什么"这个问题有不一样的直觉。
                 </p>
               </div>
             </section>
