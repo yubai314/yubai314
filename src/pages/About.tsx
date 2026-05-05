@@ -4,10 +4,10 @@ const base = (import.meta.env.BASE_URL || "/").replace(/\/?$/, "/");
 const ABOUT_BG = `${base}hero-bg-zhongshi.png`;
 
 const focusItems = [
-  "本地优先新闻工作台：重新定义信息摄入、筛选和长期归档的方式。",
-  "Agentic Runtime：把人和模型协作的粒度拆得更细，让交互不只停在对话框。",
-  "LLM Harness：管理上下文、工具调用和多模型协调，补上现有方案里不够顺手的层。",
-  "计量经济学与因果推断：以 Pearl 的 do-calculus 为框架，把识别策略和现代 ML 接起来。",
+  "AI 工具与应用工程：把模型能力接入真实工作流，而不是只停留在演示。",
+  "Rust 与 TypeScript：偏向可靠、可维护、能长期迭代的工程实现。",
+  "信息分析与阅读系统：RSS、事件流、知识整理和内容归档。",
+  "技术写作与阅读记录：项目复盘、摘抄、随笔和一些跨学科观察。",
 ];
 
 const projects = [
@@ -15,19 +15,19 @@ const projects = [
     name: "ShadowMixer",
     href: "https://github.com/gtr4321/ShadowMixer",
     desc: "面向 AI 调用场景的隐私混淆与零信任网关实验。",
-    stack: "Rust / Redis / Docker",
+    stack: "Rust · Redis · Docker",
   },
   {
     name: "NexusReader",
     href: "https://github.com/gtr4321/NexusReader",
     desc: "结合 RSS 阅读和事件流画布的信息分析系统。",
-    stack: "Next.js / Electron / FastAPI / SQLite",
+    stack: "Next.js · Electron · FastAPI · SQLite",
   },
   {
     name: "个人网站",
     href: "https://yubai314.github.io/yubai314/",
     desc: "发布文章、项目记录、摘抄和随笔的长期归档。",
-    stack: "React / TypeScript / GitHub Pages",
+    stack: "React · TypeScript · GitHub Pages",
   },
 ];
 
@@ -102,13 +102,13 @@ export default function About() {
               <h2 className="text-2xl font-display font-bold text-foreground mb-4">关于我</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  我是余白。Rust + Python + TypeScript，Tauri 2 桌面端、React/Vite 前端、FastAPI 后层。
+                  我是余白。Rust + Python + TypeScript，跨平台桌面端、React/Vite 前端、FastAPI 后层——能用编译器解决的问题就不交给运行时。
                 </p>
                 <p>
-                  正在构建几个我自己真正想用的东西：一个本地优先的新闻工作台，重新定义信息摄入的方式；一个面向 agent 时代的交互运行时，想把人和模型协作的粒度做得更细；还有一个 LLM harness 层，管上下文、工具调用和多模型协调——这块目前大多数方案都不够好。
+                  正在构建几个我自己真正想用的东西：一个以事件流为核心的新闻工作台，支持同时跟进多个议题线索；一个面向 agent 时代的交互运行时，想把人和模型协作的粒度做得更细；还有一个 LLM harness 层，管上下文、工具调用和多模型协调——这块目前大多数方案都太重了。另外在做一套自己的 UI 设计语言，sidebar 和 copilot 面板分别针对手机、折叠屏和桌面做了不同的交互适配。
                 </p>
                 <p>
-                  研究方向以计量经济学和因果推断为主干，Pearl 的 do-calculus 是我目前最认真对待的框架，想把识别策略和现代 ML 真正接起来而不是各说各话。但驱动这一切的底层逻辑其实是非理性主义的：我不相信人的决策来自最优化，相信它来自欲望、结构和历史的合力——尼采讲权力意志，马克思讲生产关系，拉康讲主体永远错过自己想要的东西。这套视角反过来让我对"模型在做什么"这个问题有不一样的直觉。
+                  研究方向以计量经济学和因果推断为主干，Pearl 的 do-calculus 是我目前最认真对待的框架，想把识别策略和现代 ML 真正接起来而不是各说各话。驱动这一切的底层是对主体在历史中如何做出选择的持续关注——尼采讲意志在命运中的位置，马克思讲结构如何塑造行动，拉康讲欲望如何错过自身。这套视角让我对"模型在做什么"这个问题有不一样的直觉。
                 </p>
               </div>
             </section>
