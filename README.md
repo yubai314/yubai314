@@ -33,16 +33,34 @@
 
 <div align="center">
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=rust,typescript,react,nextjs,electron,python,fastapi,docker,redis,sqlite,git,github&theme=dark&perline=6" alt="Rust, TypeScript, React, Next.js, Electron, Python, FastAPI, Docker, Redis, SQLite, Git, GitHub" />
+</a>
 
 </div>
+
+<table>
+  <tr>
+    <td><strong>核心语言</strong></td>
+    <td>Rust, TypeScript, Python</td>
+  </tr>
+  <tr>
+    <td><strong>应用界面</strong></td>
+    <td>React, Next.js, Electron</td>
+  </tr>
+  <tr>
+    <td><strong>服务与数据</strong></td>
+    <td>FastAPI, Redis, SQLite</td>
+  </tr>
+  <tr>
+    <td><strong>工程与发布</strong></td>
+    <td>Docker, Git, GitHub Pages</td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>偏好把模型能力、可靠工程和个人知识系统连接成能长期维护的工具。</sub>
+</p>
 
 ### GitHub 数据
 
