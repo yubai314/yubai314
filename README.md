@@ -31,54 +31,17 @@
 
 ### 技术栈
 
-<div align="left">
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=rust,typescript,react,nextjs,electron,python,fastapi,docker,redis,sqlite,git,github&theme=dark&perline=12" alt="Rust, TypeScript, React, Next.js, Electron, Python, FastAPI, Docker, Redis, SQLite, Git, GitHub" />
-</a>
-
-</div>
-
-<table>
-  <tr>
-    <td><strong>核心语言</strong></td>
-    <td>Rust, TypeScript, Python</td>
-  </tr>
-  <tr>
-    <td><strong>应用界面</strong></td>
-    <td>React, Next.js, Electron</td>
-  </tr>
-  <tr>
-    <td><strong>服务与数据</strong></td>
-    <td>FastAPI, Redis, SQLite</td>
-  </tr>
-  <tr>
-    <td><strong>工程与发布</strong></td>
-    <td>Docker, Git, GitHub Pages</td>
-  </tr>
-</table>
-
-<p align="center">
-  <sub>偏好把模型能力、可靠工程和个人知识系统连接成能长期维护的工具。</sub>
+<p align="left">
+  <img height="26" src="https://skillicons.dev/icons?i=rust" alt="Rust" /> Rust &nbsp;&nbsp;
+  <img height="26" src="https://skillicons.dev/icons?i=python" alt="Python" /> Python &nbsp;&nbsp;
+  <img height="26" src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /> TypeScript &nbsp;&nbsp;
+  <strong>Agentic Runtime</strong>
 </p>
-
-### GitHub 数据
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=yubai314&show_icons=true&hide_border=false&border_color=30363D&border_radius=6&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&count_private=true&locale=cn&cache_seconds=21600" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yubai314&layout=compact&hide_border=false&border_color=30363D&border_radius=6&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&locale=cn&cache_seconds=21600" />
-
-</div>
 
 ### 贡献记录
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yubai314/yubai314/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yubai314/yubai314/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution graph" src="https://raw.githubusercontent.com/yubai314/yubai314/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
+<p align="left">
+  <a href="https://checkmygit.com/yubai314?template=bento">
+    <img src="https://img.shields.io/badge/CheckMyGit-Open%20GitHub%20Portfolio-B8860B?style=for-the-badge&labelColor=2C1608" alt="Open CheckMyGit portfolio" />
+  </a>
+</p>
