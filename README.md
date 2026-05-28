@@ -28,12 +28,12 @@
 
 <div align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,ts,tauri,react,vite,fastapi,docker,redis,postgres,sqlite,git,github&theme=dark&perline=12" alt="Python, TypeScript, Tauri, React, Vite, FastAPI, Docker, Redis, PostgreSQL, SQLite, Git, GitHub" />
+    <img src="https://skillicons.dev/icons?i=python,ts,react,vite,fastapi,docker,redis,postgres,sqlite,git,github&theme=dark&perline=12" alt="Python, TypeScript, React, Vite, FastAPI, Docker, Redis, PostgreSQL, SQLite, Git, GitHub" />
   </a>
 </div>
 
 <p align="left">
-  Python · TypeScript · Tauri 2 · React/Vite · FastAPI · PostgreSQL · SQLite · Agentic Runtime · LLM Harness
+  Python · TypeScript · React/Vite · FastAPI · PostgreSQL · SQLite · Agentic Runtime · LLM Harness
 </p>
 
 ### 贡献记录
