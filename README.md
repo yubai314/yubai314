@@ -4,7 +4,7 @@
 
 ### 关于我
 
-我是余白。技术栈是 Rust + Python + TypeScript，做跨平台桌面端、React/Vite 前端和 FastAPI 后层。驱动力是好奇心，学东西的方式偏 YOLO——哪里有意思就从哪里切进去，问题带着问题走，有点苏格拉底的意思。
+我是余白。技术栈是 Python + TypeScript，做跨平台桌面端、React/Vite 前端和 FastAPI 后层。驱动力是好奇心，学东西的方式偏 YOLO——哪里有意思就从哪里切进去，问题带着问题走，有点苏格拉底的意思。
 
 目前在做几个自己真正想用的东西：一个以事件流为核心的新闻工作台（主要用来炒股，哈哈）、一个面向 agent 时代的人机协作运行时、一个轻量的 LLM harness 层用于管理上下文和多模型协调，以及一套针对手机、折叠屏和桌面分别适配的 UI 设计语言（类似 Material Design 的思路）。
 
@@ -28,12 +28,12 @@
 
 <div align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,python,ts,tauri,react,vite,fastapi,docker,redis,sqlite,git,github&theme=dark&perline=12" alt="Rust, Python, TypeScript, Tauri, React, Vite, FastAPI, Docker, Redis, SQLite, Git, GitHub" />
+    <img src="https://skillicons.dev/icons?i=python,ts,tauri,react,vite,fastapi,docker,redis,postgres,sqlite,git,github&theme=dark&perline=12" alt="Python, TypeScript, Tauri, React, Vite, FastAPI, Docker, Redis, PostgreSQL, SQLite, Git, GitHub" />
   </a>
 </div>
 
 <p align="left">
-  Rust · Python · TypeScript · Tauri 2 · React/Vite · FastAPI · Agentic Runtime · LLM Harness
+  Python · TypeScript · Tauri 2 · React/Vite · FastAPI · PostgreSQL · SQLite · Agentic Runtime · LLM Harness
 </p>
 
 ### 贡献记录
